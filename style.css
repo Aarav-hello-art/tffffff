@@ -1,0 +1,30 @@
+.heading{
+font-size: 30px;
+box-shadow: 10px 10px 20px grey ;
+}
+
+.btn-success{
+    font-size : 22px;
+}
+
+.btn-success:hover{
+background-color: lightcoral;
+}
+
+canvas{
+    border: 5px dashed rosybrown;
+    animation-name: shadows;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  shadows{
+    from{
+        box-shadow: 10px 10px 60px teal;
+     
+    }
+    to{
+        box-shadow: 10px 10px 60px lightgreen;
+    }
+
+}
